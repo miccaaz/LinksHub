@@ -5,6 +5,7 @@ import { colors } from "@/styles/colors";
 import { styles } from "./styles";
 
 import { Link } from "@/components/link";
+import { Option } from "@/components/option";
 import { Categories } from "@/components/categories";
 
 export default function Index() {
@@ -35,12 +36,20 @@ export default function Index() {
           <View style={styles.modalContent}>
             <View style={styles.modalHeader}>
               <Text style={styles.modalCategory}>Cursos</Text>
+
               <TouchableOpacity activeOpacity={0.5}>
                 <MaterialIcons name="close" size={20} color={colors.gray[400]} />
               </TouchableOpacity>
+
             </View>
+
             <Text style={styles.modalLinkName}>Google</Text>
             <Text style={styles.modalUrl}>https://www.google.com</Text>
+
+            <View style={styles.modalFooter}>
+              <Option name="Excluir" icon="delete" variant="secondary" />
+              <Option name="Abrir" icon="language" />
+            </View>
           </View>
         </View>
       </Modal>
