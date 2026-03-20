@@ -1,50 +1,55 @@
-# Welcome to your Expo app 👋
+# 🔗 LinksHub
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## 📱 Sobre o Projeto
 
-## Get started
+O **LinksHub** é um aplicativo mobile desenvolvido em React Native focado em organização e produtividade. Ele funciona como um gerenciador centralizado onde o usuário pode salvar, categorizar e acessar seus links favoritos de forma rápida e intuitiva. 
 
-1. Install dependencies
+Seja para guardar um material de estudo, uma referência para um trabalho ou um vídeo interessante para assistir mais tarde, o LinksHub ajuda a manter sua vida digital organizada.
 
-   ```bash
-   npm install
-   ```
+## ✨ Funcionalidades
 
-2. Start the app
+* **Adição de Links:** Salve qualquer URL rapidamente.
+* **Categorização Inteligente:** Organize seus links através de tags pré-definidas para facilitar a busca:
+    * 📚 **Curso:** Links para plataformas de ensino e aulas.
+    * 💻 **Projeto:** Referências de repositórios ou ideias.
+    * 🌐 **Site:** Páginas da web em geral.
+    * 📰 **Artigo:** Textos, blogs e publicações.
+    * 🎥 **Vídeo:** Tutoriais, entretenimento e palestras.
+    * 📄 **Documentação:** Manuais e docs técnicos essenciais.
+* **Listagem e Filtros:** Visualize seus links por categoria.
+* **Exclusão/Edição:** Gerencie os links salvos com facilidade.
 
-   ```bash
-   npx expo start
-   ```
+## 🚀 Tecnologias Utilizadas
 
-In the output, you'll find options to open the app in a
+Este projeto foi construído utilizando as seguintes tecnologias:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+* **[React Native](https://reactnative.dev/):** Framework principal para o desenvolvimento mobile cross-platform.
+* **[Expo](https://expo.dev/):** Plataforma que facilita a criação, testes e build do app.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🛠️ Como executar o projeto
 
-## Get a fresh project
+Para rodar este aplicativo na sua máquina, você precisará ter o [Node.js](https://nodejs.org/) e o [Git](https://git-scm.com/) instalados, além do aplicativo **Expo Go** no seu celular (ou um emulador configurado).
 
-When you're ready, run:
-
+### 1. Clone o repositório
 ```bash
-npm run reset-project
+git clone [https://github.com/](https://github.com/)[SEU_USUARIO]/[NOME_DO_REPOSITORIO].git
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### 2. Acesse a pasta do projeto
+```bash
+cd linkhub
+```
 
-## Learn more
+### 3. Instale as dependências
+```bash
+npm install
+# ou
+yarn install
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+### 4. Execute a aplicação
+```bash
+npx expo start
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Após executar o comando acima, um QR Code aparecerá no seu terminal. Escaneie-o com o aplicativo Expo Go (Android/iOS) ou pressione a para abrir no emulador Android, ou i para o emulador iOS.
