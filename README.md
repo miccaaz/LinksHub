@@ -17,7 +17,7 @@ Seja para guardar um material de estudo, uma referência para um trabalho ou um 
     * 🎥 **Vídeo:** Tutoriais, entretenimento e palestras.
     * 📄 **Documentação:** Manuais e docs técnicos essenciais.
 * **Listagem e Filtros:** Visualize seus links por categoria.
-* **Exclusão/Edição:** Gerencie os links salvos com facilidade.
+* **Exclusão:** Gerencie os links salvos com facilidade.
 
 ## 🚀 Tecnologias Utilizadas
 
